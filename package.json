@@ -1,0 +1,16 @@
+{
+  "name": "movie-watchlist-api",
+  "version": "1.0.0",
+  "description": "Family Movie Watchlist API with JWT authentication and role-based authorization",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
